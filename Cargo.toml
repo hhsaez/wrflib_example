@@ -1,0 +1,9 @@
+[package]
+name = "widget_example"
+version = "0.0.1"
+edition = "2018"
+publish = false
+
+[dependencies]
+wrflib = "0.0.3"
+wrflib_widget = "0.0.3"

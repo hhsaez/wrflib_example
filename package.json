@@ -1,0 +1,14 @@
+{
+    "name": "wrflib_example",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "wrflib": "0.0.3"
+    },
+    "scripts": {
+        "bootstrap": "cargo install cargo-wrflib",
+        "build": "cargo wrflib build --release",
+        "start": "npm run build && scripts/server.py"
+    }
+}
